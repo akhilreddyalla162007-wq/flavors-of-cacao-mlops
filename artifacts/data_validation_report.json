@@ -1,0 +1,9 @@
+{
+    "stage": "Lab 7 - Data Validation",
+    "validation_passed": true,
+    "missing_columns": [],
+    "missing_values": 2,
+    "duplicate_rows": 0,
+    "invalid_ratings": 0,
+    "total_rows": 1795
+}

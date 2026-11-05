@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-11-05T11:35:35.419233",
+    "incoming_rows": 1,
+    "target_column_available": false,
+    "minimum_required_rows": 30,
+    "enough_data": false,
+    "drift_detected": true,
+    "retraining_status": "NOT READY FOR RETRAINING"
+}

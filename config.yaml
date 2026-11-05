@@ -1,0 +1,47 @@
+project:
+  name: "241FA18335_flavors_mlops"
+  task: "Regression"
+
+data:
+  raw_path: "data/raw/flavors_of_cacao.csv"
+  new_data_path: "data/raw/new_flavors.csv"
+  processed_path: "data/processed/preprocessed.csv"
+  processed_dir: "data/processed"
+  target_column: "Rating"
+  id_column: "REF"
+
+split:
+  test_size: 0.20
+  random_state: 42
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "Flavors_of_Cacao_Rating_Prediction"
+
+registry:
+  model_name: "Flavors_of_Cacao_Rating_Production_Model"
+  alias: "Champion"
+  decision_metric: "RMSE"
+  optimization_direction: "minimize"
+
+model:
+  n_estimators: 200
+  max_depth: 15
+  min_samples_split: 2
+  random_state: 42
+
+quality_gate:
+  metric: "RMSE"
+  maximum_value: 0.60
+
+paths:
+  model: "models/best_model.joblib"
+  preprocessor: "models/preprocessor.pkl"
+  evaluation_report: "reports/evaluation_report.json"
+  quality_gate_report: "reports/quality_gate_report.json"
+  failure_report: "reports/failure_report.json"
+  inference_output: "outputs/inference_predictions.csv"
+
+lab9:
+  repetitions: 1
+  

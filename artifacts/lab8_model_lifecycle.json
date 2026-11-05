@@ -1,0 +1,12 @@
+{
+    "stage": "Lab 8 - Model Lifecycle Automation",
+    "model_name": "Flavors_of_Cacao_Rating_Production_Model",
+    "champion_alias": "Champion",
+    "candidate_version": "20",
+    "candidate_rmse": 0.4494281954039609,
+    "previous_champion_version": "13",
+    "previous_champion_rmse": 0.4494281954039608,
+    "promoted": false,
+    "final_champion_version": "13",
+    "final_champion_rmse": 0.4494281954039608
+}

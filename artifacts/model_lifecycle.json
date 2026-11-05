@@ -1,0 +1,22 @@
+{
+    "model_name": "Flavors_of_Cacao_Rating_Production_Model",
+    "champion_alias": "Champion",
+    "champion_version": 5,
+    "champion_run_id": "4c0c5baa0a4d43528f2fb9304fc990c4",
+    "champion_rmse": 0.44942819540396095,
+    "champion_r2": 0.12621903614440577,
+    "all_versions": [
+        {
+            "version": 5,
+            "run_id": "4c0c5baa0a4d43528f2fb9304fc990c4",
+            "rmse": 0.44942819540396095,
+            "r2": 0.12621903614440577
+        },
+        {
+            "version": 3,
+            "run_id": "18ef8d27720b461db610568045297a75",
+            "rmse": 0.44942819540396095,
+            "r2": 0.12621903614440577
+        }
+    ]
+}

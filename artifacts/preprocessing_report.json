@@ -1,0 +1,9 @@
+{
+    "stage": "Lab 7 - Preprocessing",
+    "original_rows": 1795,
+    "training_rows": 1436,
+    "testing_rows": 359,
+    "training_features": 1456,
+    "testing_features": 1456,
+    "target": "Rating"
+}

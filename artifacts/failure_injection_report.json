@@ -1,0 +1,34 @@
+{
+    "stage": "Lab 9 - Failure Injection Testing",
+    "total_tests": 4,
+    "passed": 4,
+    "failed": 0,
+    "results": [
+        {
+            "test": "Missing Dataset",
+            "status": "PASSED"
+        },
+        {
+            "test": "Schema Validation",
+            "status": "PASSED",
+            "missing_columns": [
+                "Specific_Bean_Origin",
+                "Review_Date",
+                "Cocoa_Percent",
+                "Company_Location",
+                "Bean_Type",
+                "Broad_Bean_Origin"
+            ]
+        },
+        {
+            "test": "Invalid Rating",
+            "status": "PASSED",
+            "invalid_values": 1
+        },
+        {
+            "test": "Model Recovery",
+            "status": "PASSED",
+            "recovery_source": "Local MLflow model artifacts"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "model_name": "Flavors_of_Cacao_Rating_Production_Model",
+    "model_version": 5,
+    "model_alias": "Champion",
+    "run_id": "4c0c5baa0a4d43528f2fb9304fc990c4",
+    "model_uri": "models:/Flavors_of_Cacao_Rating_Production_Model@Champion",
+    "task": "Regression",
+    "dataset": "flavors_of_cacao.csv",
+    "target": "Rating",
+    "metrics": {
+        "MAE": 0.3445926957362196,
+        "MSE": 0.2019857028240609,
+        "RMSE": 0.44942819540396095,
+        "R2": 0.12621903614440577
+    },
+    "parameters": {
+        "n_estimators": "200",
+        "max_depth": "15",
+        "random_state": "42",
+        "min_samples_split": "2",
+        "model_family": "RandomForestRegressor",
+        "dataset": "flavors_of_cacao.csv",
+        "target": "Rating",
+        "task": "Regression"
+    },
+    "status": "READY_FOR_DEPLOYMENT"
+}

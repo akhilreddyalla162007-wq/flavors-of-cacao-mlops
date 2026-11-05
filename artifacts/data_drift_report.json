@@ -1,0 +1,58 @@
+{
+    "timestamp": "2026-11-05T11:35:35.033115",
+    "reference_dataset": "/Users/akhil/Desktop/241FA18335_flavors_mlops /data/raw/flavors_of_cacao.csv",
+    "new_dataset": "/Users/akhil/Desktop/241FA18335_flavors_mlops /data/raw/new_flavors.csv",
+    "reference_rows": 1795,
+    "new_rows": 1,
+    "small_sample_warning": true,
+    "total_features_checked": 7,
+    "drifted_features": [
+        "Company",
+        "Specific_Bean_Origin",
+        "Company_Location",
+        "Bean_Type",
+        "Broad_Bean_Origin"
+    ],
+    "drift_detected": true,
+    "feature_results": {
+        "Review_Date": {
+            "type": "numerical",
+            "reference_mean": 2012.33,
+            "new_mean": 2016.0,
+            "change_percent": 0.18,
+            "drift_detected": false
+        },
+        "Cocoa_Percent": {
+            "type": "numerical",
+            "reference_mean": 71.7,
+            "new_mean": 70.0,
+            "change_percent": 2.37,
+            "drift_detected": false
+        },
+        "Company": {
+            "type": "categorical",
+            "drift_score": 0.9872,
+            "drift_detected": true
+        },
+        "Specific_Bean_Origin": {
+            "type": "categorical",
+            "drift_score": 0.9749,
+            "drift_detected": true
+        },
+        "Company_Location": {
+            "type": "categorical",
+            "drift_score": 0.9131,
+            "drift_detected": true
+        },
+        "Bean_Type": {
+            "type": "categorical",
+            "drift_score": 0.9994,
+            "drift_detected": true
+        },
+        "Broad_Bean_Origin": {
+            "type": "categorical",
+            "drift_score": 0.9994,
+            "drift_detected": true
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-11-05T11:35:35.108181",
+    "model": "RandomForestRegressor",
+    "testing_rows": 359,
+    "baseline_metrics": {
+        "MAE": 0.3445926957362196,
+        "MSE": 0.2019857028240609,
+        "RMSE": 0.44942819540396095,
+        "R2": 0.12621903614440577
+    },
+    "threshold_checks": {
+        "MAE": {
+            "value": 0.3445926957362196,
+            "threshold": 0.4,
+            "passed": true
+        },
+        "MSE": {
+            "value": 0.2019857028240609,
+            "threshold": 0.3,
+            "passed": true
+        },
+        "RMSE": {
+            "value": 0.44942819540396095,
+            "threshold": 0.6,
+            "passed": true
+        },
+        "R2": {
+            "value": 0.12621903614440577,
+            "threshold": 0.1,
+            "passed": true
+        }
+    },
+    "failed_metrics": [],
+    "performance_status": "HEALTHY"
+}

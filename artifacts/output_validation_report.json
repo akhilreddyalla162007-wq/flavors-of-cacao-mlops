@@ -1,0 +1,15 @@
+{
+    "stage": "Lab 7 - Output Validation",
+    "validation_passed": true,
+    "training_rows": 1436,
+    "testing_rows": 359,
+    "training_features": 1456,
+    "testing_features": 1456,
+    "same_features": true,
+    "training_missing_values": 0,
+    "testing_missing_values": 0,
+    "training_infinite_values": 0,
+    "testing_infinite_values": 0,
+    "invalid_training_ratings": 0,
+    "invalid_testing_ratings": 0
+}

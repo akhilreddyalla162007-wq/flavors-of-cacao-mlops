@@ -1,0 +1,12 @@
+{
+    "stage": "Lab 8 - Model Evaluation",
+    "model": "RandomForestRegressor",
+    "target": "Rating",
+    "testing_rows": 359,
+    "metrics": {
+        "MAE": 0.3445926957362196,
+        "MSE": 0.2019857028240609,
+        "RMSE": 0.44942819540396095,
+        "R2": 0.12621903614440577
+    }
+}

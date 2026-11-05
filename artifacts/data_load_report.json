@@ -1,0 +1,21 @@
+{
+    "stage": "Lab 7 - Data Loading",
+    "dataset": "data/raw/flavors_of_cacao.csv",
+    "task": "Regression",
+    "target_column": "Rating",
+    "rows": 1795,
+    "columns": 9,
+    "column_names": [
+        "Company",
+        "Specific_Bean_Origin",
+        "REF",
+        "Review_Date",
+        "Cocoa_Percent",
+        "Company_Location",
+        "Rating",
+        "Bean_Type",
+        "Broad_Bean_Origin"
+    ],
+    "missing_values": 2,
+    "duplicate_rows": 0
+}
